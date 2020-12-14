@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="54.173157mm"
+   height="99.999863mm"
+   viewBox="0 0 191.95214 354.33024"
+   id="svg3699"
+   version="1.1"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="orion.svg"
+   inkscape:export-filename="/home/ktims/infinity/My Documents/electronics/xmascard2020/art/orion.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs3701">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2097"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2095"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#970000;stroke-width:1pt;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2011"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#970000;stroke-width:1pt;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2009" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1939"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1937"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#970000;stroke-width:1pt;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1793"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#970000;stroke-width:1pt;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1791" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow2Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(0.6) rotate(180) translate(0,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#970000;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         id="path1106" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;stroke:#970000;stroke-width:1pt;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1094" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#970000;stroke-width:1pt;stroke-opacity:1;fill:#970000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1088" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="Arrow2Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1100" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1079" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.2463642"
+     inkscape:cx="74.565136"
+     inkscape:cy="117.81661"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="2560"
+     inkscape:window-height="1359"
+     inkscape:window-x="1080"
+     inkscape:window-y="135"
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3704">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="F.SilkS"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-173.5845,-301.93931)">
+    <g
+       id="g3789"
+       transform="matrix(0.3706145,0,0,0.3706145,-9.9516045,-22.336823)">
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/sanu/Pictures/Orion/Orion Art.png"
+         inkscape:connector-curvature="0"
+         id="path4345"
+         d="m 552.3702,1091.832 196.252,-99.26689 98.4253,139.55639 -60.6195,277.4147 169.5371,315.4 -321.456,48.934 50.6472,-306.8753 z"
+         style="fill:none;fill-rule:evenodd;stroke:#00beff;stroke-width:4.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="300"
+         inkscape:export-xdpi="300"
+         inkscape:export-filename="/home/sanu/Pictures/Orion/Orion Art.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4347"
+         d="m 689.2222,1470.4475 89.6873,-60.2978"
+         style="fill:none;fill-rule:evenodd;stroke:#00beff;stroke-width:4.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <text
+       id="text947"
+       y="400.98206"
+       x="253.13556"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.0374px;line-height:100%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.563668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.0374px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:proportional-nums;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.563668px"
+         y="400.98206"
+         x="253.13556"
+         id="tspan951"
+         sodipodi:role="line">Merry</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.0374px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:proportional-nums;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.563668px"
+         y="419.4274"
+         x="253.13556"
+         id="tspan953"
+         sodipodi:role="line">Christmas</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.0374px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:proportional-nums;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.563668px"
+         y="437.87277"
+         x="253.13556"
+         id="tspan955"
+         sodipodi:role="line">2020</tspan></text>
+    <text
+       transform="rotate(-8.19622)"
+       id="text959"
+       y="654.3562"
+       x="192.12624"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.0374px;line-height:100%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.563668px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.0374px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.563668px"
+         y="654.3562"
+         x="192.12624"
+         id="tspan957"
+         sodipodi:role="line">❤️Keenan</tspan></text>
+  </g>
+  <g
+     transform="translate(0.00215611, -0.00274062)"
+     inkscape:label="Drill"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <circle
+       r="4.8640399"
+       cy="80.375381"
+       cx="21.178143"
+       id="path923"
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1" />
+    <circle
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1"
+       id="circle925"
+       cx="92.995537"
+       cy="43.283985"
+       r="4.8640399" />
+    <circle
+       r="4.8640399"
+       cy="95.171677"
+       cx="129.73463"
+       id="circle927"
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1" />
+    <circle
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1"
+       id="circle929"
+       cx="107.33887"
+       cy="196.63197"
+       r="4.8640399" />
+    <circle
+       r="4.8640399"
+       cy="208.00601"
+       cx="90.126854"
+       id="circle931"
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1" />
+    <circle
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1"
+       id="circle933"
+       cx="70.952065"
+       cy="219.83296"
+       r="4.8640399" />
+    <circle
+       r="4.8640399"
+       cy="331.91748"
+       cx="52.155052"
+       id="circle935"
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1" />
+    <circle
+       style="fill:#000000;stroke:#00beff;stroke-width:0.901842;stroke-linejoin:bevel;stroke-opacity:1"
+       id="circle937"
+       cx="170.29861"
+       cy="314.39841"
+       r="4.8640399" />
+    <circle
+       r="3.0602932"
+       cy="281.13046"
+       cx="94.916878"
+       id="path939"
+       style="fill:#000000;stroke:#00beff;stroke-width:0.966028;stroke-linejoin:bevel;stroke-opacity:1" />
+    <circle
+       r="2.1602507"
+       cy="271.76959"
+       cx="93.558029"
+       id="path941"
+       style="fill:#000000;stroke:#00beff;stroke-width:0.99446;stroke-linejoin:bevel;stroke-opacity:1" />
+    <circle
+       style="fill:#000000;stroke:#00beff;stroke-width:0.99446;stroke-linejoin:bevel;stroke-opacity:1"
+       id="circle943"
+       cx="93.507698"
+       cy="264.11981"
+       r="2.1602507" />
+  </g>
+  <g
+     transform="translate(0.00215611, -0.00274062)"
+     inkscape:label="Edge.Cuts"
+     id="layer3"
+     inkscape:groupmode="layer">
+    <path
+       id="path959"
+       style="fill:none;fill-rule:evenodd;stroke:#ffcd00;stroke-width:1.59364;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 75.3438 6.41232 L 75.1674 6.81907 L 75.0135 7.22057 L 74.8822 7.61705 L 74.7717 8.00863 L 74.6815 8.39553 L 74.6105 8.77798 L 74.5586 9.15609 L 74.5248 9.53009 L 74.5079 9.90013 L 74.5073 10.2664 L 74.522 10.6291 L 74.5513 10.9885 L 74.5947 11.3445 L 74.6505 11.6977 L 74.7192 12.0479 L 74.7987 12.3955 L 74.8895 12.7406 L 74.9892 13.0835 L 75.0986 13.4242 L 75.2158 13.763 L 75.4712 14.4356 L 75.7496 15.1027 L 76.0439 15.7659 L 76.3477 16.4265 L 76.9593 17.7461 L 77.2529 18.4079 L 77.5308 19.0731 L 77.7856 19.7432 L 77.9023 20.0805 L 78.0105 20.4195 L 78.1103 20.7605 L 78.1999 21.1037 L 78.2794 21.4491 L 78.347 21.797 L 78.4023 22.1476 L 78.4451 22.5011 L 78.4733 22.8576 L 78.4874 23.2174 L 78.4857 23.5805 L 78.4682 23.9473 L 78.4327 24.3179 L 78.3797 24.6924 L 78.3081 25.071 L 78.2168 25.4541 L 78.1052 25.8416 L 77.9722 26.2338 L 77.8172 26.6309 L 77.6396 27.0331 L 77.4384 27.4405 L 77.2123 27.8534 L 76.9615 28.2719 L 76.6842 28.6962 L 76.3798 29.1265 L 76.0484 29.563 L 72.2306 31.5711 L 68.3605 33.591 L 64.4438 35.6211 L 60.4864 37.6597 L 56.4943 39.7051 L 52.4733 41.7558 L 44.3685 45.8662 L 36.2193 49.9779 L 28.0731 54.0776 L 19.9773 58.1522 L 11.9793 62.1886 L 11.5542 62.4099 L 11.1362 62.6399 L 10.7255 62.8785 L 10.3221 63.1256 L 9.92614 63.3808 L 9.53758 63.6442 L 9.15652 63.9154 L 8.78303 64.1944 L 8.4172 64.481 L 8.05904 64.7751 L 7.70867 65.0763 L 7.36612 65.3847 L 7.03147 65.7001 L 6.70477 66.0222 L 6.38613 66.351 L 6.07561 66.6861 L 5.7732 67.0276 L 5.47902 67.3752 L 5.19313 67.7288 L 4.91558 68.0882 L 4.64648 68.4532 L 4.38584 68.8237 L 4.13377 69.1995 L 3.89032 69.5804 L 3.65555 69.9664 L 3.42952 70.3572 L 3.21228 70.7526 L 3.00395 71.1526 L 2.80458 71.5568 L 2.61417 71.9653 L 2.43284 72.3778 L 2.26064 72.7941 L 2.09768 73.2141 L 1.94397 73.6376 L 1.79956 74.0645 L 1.66462 74.4946 L 1.53909 74.9278 L 1.42309 75.3638 L 1.31667 75.8025 L 1.21994 76.2438 L 1.13291 76.6875 L 1.05569 77.1333 L 0.988329 77.5813 L 0.930891 78.0311 L 0.88343 78.4827 L 0.846003 78.9358 L 0.818721 79.3904 L 0.801586 79.8462 L 0.794709 80.3031 L 0.798147 80.7609 L 0.811957 81.2195 L 0.836195 81.6786 L 0.870973 82.1382 L 0.916292 82.5981 L 0.972264 83.0581 L 1.03895 83.518 L 1.11639 83.9778 L 1.20466 84.4371 L 1.30381 84.8959 L 1.41395 85.354 L 1.53509 85.8112 L 1.66732 86.2674 L 1.81078 86.7224 L 1.96539 87.1761 L 49.428 221.272 L 31.5118 329.83 L 31.4163 330.469 L 31.3411 331.105 L 31.2858 331.738 L 31.2502 332.368 L 31.234 332.994 L 31.2369 333.616 L 31.2587 334.234 L 31.299 334.847 L 31.3576 335.455 L 31.4342 336.058 L 31.5286 336.656 L 31.6404 337.248 L 31.7694 337.834 L 31.9154 338.414 L 32.0779 338.988 L 32.2568 339.554 L 32.4519 340.114 L 32.6627 340.666 L 32.889 341.21 L 33.1306 341.747 L 33.3872 342.276 L 33.6585 342.796 L 33.9443 343.307 L 34.2442 343.809 L 34.558 344.302 L 34.8853 344.786 L 35.2261 345.259 L 35.5798 345.722 L 35.9464 346.175 L 36.3255 346.618 L 36.7168 347.049 L 37.12 347.469 L 37.5349 347.877 L 37.9612 348.274 L 38.3987 348.659 L 38.847 349.031 L 39.3059 349.39 L 39.775 349.737 L 40.2543 350.071 L 40.7433 350.39 L 41.2417 350.696 L 41.7493 350.989 L 42.2659 351.267 L 42.7911 351.53 L 43.3246 351.778 L 43.8663 352.011 L 44.4158 352.229 L 44.9729 352.431 L 45.5372 352.617 L 46.1085 352.787 L 46.6865 352.94 L 47.271 353.076 L 47.8617 353.196 L 48.4582 353.298 L 49.0604 353.382 L 49.6678 353.448 L 50.2804 353.496 L 50.8977 353.525 L 51.5196 353.536 L 52.1458 353.528 L 52.7758 353.5 L 53.4096 353.453 L 54.0468 353.386 L 54.6871 353.299 L 173.823 335.162 L 174.472 335.053 L 175.11 334.925 L 175.739 334.779 L 176.359 334.614 L 176.968 334.432 L 177.567 334.232 L 178.156 334.015 L 178.735 333.781 L 179.302 333.531 L 179.859 333.265 L 180.405 332.984 L 180.939 332.688 L 181.462 332.376 L 181.974 332.05 L 182.474 331.71 L 182.962 331.356 L 183.437 330.988 L 183.9 330.608 L 184.351 330.215 L 184.789 329.809 L 185.214 329.392 L 185.626 328.963 L 186.025 328.524 L 186.41 328.073 L 186.782 327.611 L 187.14 327.14 L 187.484 326.659 L 187.814 326.168 L 188.129 325.669 L 188.43 325.161 L 188.717 324.644 L 188.988 324.12 L 189.244 323.588 L 189.485 323.049 L 189.71 322.503 L 189.92 321.951 L 190.115 321.393 L 190.293 320.829 L 190.454 320.259 L 190.6 319.685 L 190.729 319.106 L 190.841 318.523 L 190.936 317.936 L 191.015 317.346 L 191.076 316.752 L 191.119 316.155 L 191.145 315.557 L 191.153 314.956 L 191.143 314.353 L 191.115 313.749 L 191.068 313.145 L 191.003 312.539 L 190.919 311.933 L 190.816 311.328 L 190.695 310.723 L 190.553 310.119 L 190.393 309.517 L 190.212 308.915 L 190.012 308.316 L 189.792 307.72 L 189.552 307.126 L 189.291 306.534 L 189.01 305.947 L 188.708 305.364 L 129.443 195.11 L 150.3 99.6586 L 150.408 99.1344 L 150.501 98.609 L 150.58 98.0826 L 150.646 97.555 L 150.697 97.0274 L 150.735 96.4998 L 150.759 95.9716 L 150.77 95.4446 L 150.767 94.9176 L 150.75 94.3917 L 150.719 93.8665 L 150.675 93.3429 L 150.618 92.821 L 150.547 92.301 L 150.463 91.7831 L 150.366 91.2676 L 150.255 90.7548 L 150.131 90.2449 L 149.994 89.7383 L 149.844 89.2351 L 149.682 88.7356 L 149.506 88.2401 L 149.317 87.7488 L 149.115 87.262 L 148.901 86.78 L 148.674 86.303 L 148.434 85.8314 L 148.181 85.3652 L 147.916 84.9048 L 147.638 84.4505 L 147.348 84.0026 L 147.045 83.5612 L 118.683 43.3448 L 118.104 42.5338 L 117.57 41.7327 L 117.081 40.9414 L 116.634 40.1597 L 116.23 39.3875 L 115.867 38.6248 L 115.542 37.8712 L 115.255 37.1269 L 115.005 36.3916 L 114.79 35.6652 L 114.61 34.9476 L 114.461 34.2387 L 114.344 33.5384 L 114.257 32.8466 L 114.198 32.163 L 114.166 31.4877 L 114.16 30.8205 L 114.18 30.1612 L 114.222 29.5098 L 114.286 28.8662 L 114.371 28.2301 L 114.475 27.6017 L 114.597 26.9805 L 114.736 26.3666 L 114.889 25.7599 L 115.057 25.1602 L 115.238 24.5674 L 115.429 23.9814 L 115.631 23.4021 L 115.841 22.8294 L 116.283 21.7031 L 116.742 20.6016 L 117.21 19.5239 L 118.126 17.4365 L 118.553 16.4248 L 118.946 15.4331 L 119.126 14.9445 L 119.293 14.4606 L 119.447 13.9813 L 119.585 13.5063 L 119.706 13.0357 L 119.81 12.5692 L 119.894 12.1069 L 119.957 11.6484 L 119.999 11.1939 L 120.017 10.743 L 120.011 10.2957 L 119.978 9.85196 L 119.919 9.41157 L 119.83 8.97439 L 119.712 8.54031 L 119.562 8.10927 L 119.38 7.68116 L 119.164 7.25576 L 118.913 6.83307 L 118.625 6.41285 L 118.159 6.0777 L 117.675 5.75246 L 117.172 5.43731 L 116.65 5.1322 L 116.112 4.83717 L 115.556 4.5523 L 114.985 4.27751 L 114.397 4.01298 L 113.795 3.7586 L 113.178 3.51453 L 112.548 3.28066 L 111.904 3.05717 L 111.248 2.84399 L 110.579 2.64118 L 109.899 2.4488 L 109.209 2.26679 L 108.509 2.09527 L 107.799 1.93428 L 107.08 1.78378 L 106.352 1.64388 L 105.617 1.51452 L 104.875 1.39581 L 104.126 1.28775 L 103.372 1.19035 L 102.612 1.10366 L 101.848 1.02773 L 101.079 0.962575 L 100.307 0.908237 L 99.5324 0.864722 L 98.7551 0.832085 L 97.9767 0.810384 L 97.1971 0.799562 L 96.4164 0.799731 L 95.6369 0.810891 L 94.8573 0.833044 L 94.08 0.8663 L 93.3039 0.910661 L 92.5311 0.966069 L 91.7612 1.03216 L 90.9952 1.10995 L 90.2337 1.1989 L 89.4772 1.29917 L 88.7264 1.41067 L 87.9818 1.53349 L 87.244 1.66764 L 86.514 1.81318 L 85.7914 1.97011 L 85.0784 2.13848 L 84.3743 2.31829 L 83.6799 2.5096 L 82.9962 2.7124 L 82.3237 2.92682 L 81.6631 3.1528 L 81.0143 3.39044 L 80.379 3.63964 L 79.7573 3.90062 L 79.1497 4.17326 L 78.5567 4.45763 L 77.9789 4.75379 L 77.4175 5.06177 L 76.8725 5.3816 L 76.3449 5.71326 L 75.8348 6.05682 L 75.3438 6.41232 L 75.3438 6.41232"
+       sodipodi:nodetypes="ccccccccccccccc" />
+  </g>
+  <g
+     inkscape:label="Notes"
+     id="layer4"
+     inkscape:groupmode="layer">
+    <text
+       id="text1051"
+       y="83.629349"
+       x="-64.68766"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1053"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-opacity:1"
+         y="83.629349"
+         x="-64.68766"
+         sodipodi:role="line">Betelgeuse</tspan></text>
+    <text
+       id="text1057"
+       y="318.07742"
+       x="193.7056"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1059"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="318.07742"
+         x="193.7056"
+         sodipodi:role="line">Rigel</tspan></text>
+    <text
+       id="text1063"
+       y="99.35453"
+       x="154.75003"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1065"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="99.35453"
+         x="154.75003"
+         sodipodi:role="line"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+           id="tspan2169"
+           dy="0">Bellatrix</tspan></tspan></text>
+    <text
+       id="text1069"
+       y="218.00813"
+       x="150.28265"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1075"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="218.00813"
+         x="150.28265"
+         sodipodi:role="line">Alnilam</tspan></text>
+    <path
+       id="path1077"
+       d="M 149.21048,213.71945 95.959319,210.14554"
+       style="fill:none;fill-rule:evenodd;stroke:#970000;stroke-width:0.93897643;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
+    <text
+       id="text1643"
+       y="224.97725"
+       x="3.2165127"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1645"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="224.97725"
+         x="3.2165127"
+         sodipodi:role="line">Alnitak</tspan></text>
+    <text
+       id="text1727"
+       y="335.58957"
+       x="-2.1443422"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1729"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="335.58957"
+         x="-2.1443422"
+         sodipodi:role="line">Saiph</tspan></text>
+    <text
+       id="text1911"
+       y="171.72607"
+       x="147.60223"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan1913"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="171.72607"
+         x="147.60223"
+         sodipodi:role="line">Mintaka</tspan></text>
+    <path
+       id="path1915"
+       d="m 145.81528,169.22435 c -33.95209,24.12384 -33.95209,24.12384 -33.95209,24.12384"
+       style="fill:none;fill-rule:evenodd;stroke:#970000;stroke-width:0.93897643;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1793)" />
+    <text
+       id="text1925"
+       y="272.68884"
+       x="186.20039"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="272.68884"
+         x="186.20039"
+         id="tspan1923"
+         sodipodi:role="line" /><tspan
+         id="tspan1927"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="285.18884"
+         x="186.20039"
+         sodipodi:role="line">ι Orionis</tspan></text>
+    <path
+       id="path1929"
+       d="m 184.77083,280.55145 -86.131086,0.89347"
+       style="fill:none;fill-rule:evenodd;stroke:#970000;stroke-width:0.93897643;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1939)" />
+    <text
+       id="text1997"
+       y="250.35196"
+       x="185.1282"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="250.35196"
+         x="185.1282"
+         id="tspan1995"
+         sodipodi:role="line" /><tspan
+         id="tspan1999"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="262.85193"
+         x="185.1282"
+         sodipodi:role="line">θ Orionis</tspan></text>
+    <path
+       id="path2001"
+       d="M 183.51996,258.39325 96.316712,271.61669"
+       style="fill:none;fill-rule:evenodd;stroke:#970000;stroke-width:0.93897643;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker2011)" />
+    <text
+       id="text2075"
+       y="42.529457"
+       x="121.33404"
+       style="font-size:12.5px;line-height:100%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan2077"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="42.529457"
+         x="121.33404"
+         sodipodi:role="line">Meissa</tspan></text>
+    <text
+       id="text2085"
+       y="243.74025"
+       x="175.83606"
+       style="font-size:12.5px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:none;stroke:#000000;stroke-width:0.9375px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0.9375px"
+         y="243.74025"
+         x="175.83606"
+         id="tspan2083"
+         sodipodi:role="line">c Orionis</tspan></text>
+    <path
+       id="path2087"
+       d="m 174.04912,240.88112 -77.911104,22.3369"
+       style="fill:none;fill-rule:evenodd;stroke:#970000;stroke-width:0.93897643;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker2097)" />
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+{
+    "build": {
+        "core": "stm32",
+        "cpu": "cortex-m0",
+        "extra_flags": "-DSTM32F030x4",
+        "f_cpu": "8000000L",
+        "mcu": "stm32f030f4p6",
+        "variant": "xmascard2020"
+    },
+    "debug": {
+        "tools": {
+            "stlink": {
+                "default": true,
+                "server": {
+                    "arguments": [
+                        "-f",
+                        "scripts/interface/stlink.cfg",
+                        "-c",
+                        "transport select hla_swd",
+                        "-f",
+                        "scripts/target/stm32f0x.cfg",
+                        "-c",
+                        "reset_config srst"
+                    ]
+                }
+            }
+        },
+        "jlink_device": "STM32F03F4"
+    },
+    "frameworks": [
+        "libopencm3"
+    ],
+    "name": "XMAS Card 2020",
+    "url": "https://www.gotroot.ca",
+    "upload": {
+        "maximum_ram_size": 4096,
+        "maximum_size": 16384,
+        "protocol": "stlink",
+        "protocols": [
+            "jlink",
+            "stlink",
+            "blackmagic"
+        ]
+    },
+    "vendor": "Keenan"
+}

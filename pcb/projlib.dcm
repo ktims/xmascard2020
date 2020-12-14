@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MBI5043GP
+D 16-Channel  SPWM  Constant  Current  LED  Driver
+$ENDCMP
+#
+#End Doc Library

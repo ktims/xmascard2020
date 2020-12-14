@@ -1,0 +1,6 @@
+[submodule "code/gcem"]
+	path = code/gcem
+	url = https://github.com/kthohr/gcem
+[submodule "code/berkeley-softfloat-3"]
+	path = code/berkeley-softfloat-3
+	url = https://github.com/ucb-bar/berkeley-softfloat-3
