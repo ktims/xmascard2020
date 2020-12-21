@@ -14,7 +14,7 @@
 // time and space
 #define OPTIMIZATIONS
 
-//#define DEBUG
+#define DEBUG 0
 
 // UART baud rate
 constexpr auto UART_SPEED = 115200;
@@ -22,11 +22,17 @@ constexpr auto UART_SPEED = 115200;
 // Number of LEDs attached to MBI
 constexpr auto NUM_LEDS = 11;
 
+// Maximum LED brightness value. Appled at output, doesn't affect effects
+constexpr uint16_t LED_OUT_MAX = 65535;
+
+// MBI current gain. See datasheet page 16. 0 = 1/8x, 0b11111 = 1.938x. R4 (2.7k) sets the base value to 5.2mA
+constexpr uint8_t MBI_GAIN = 0;
+
 // Frames to draw per second
 constexpr auto FPS = 60;
 
 // Long presses are >= LONG_PRESS & < PWR_PRESS
-constexpr size_t LONG_PRESS = FPS / 4; // ~250ms
+constexpr size_t LONG_PRESS = FPS / 2; // \500ms
 
 // Power presses are >= PWR_PRESS
 constexpr size_t PWR_PRESS = FPS * 3;
@@ -34,10 +40,12 @@ constexpr size_t PWR_PRESS = FPS * 3;
 // Debounce delay after button input before accepting another input
 constexpr size_t DEBOUNCE_DELAY = FPS / 20; // ~50ms
 
+constexpr uint32_t APO_FRAMES = FPS * 4 * 3600; // 4 hours
+
 // LED chase order (zig-zag starting bottom right) - cap at NUM_LEDS for one
 // direction NOTE TO SELF: Next time make the Dx numbers match the output pin
 // numbers 🤦
-constexpr std::array LED_ORDER
+[[maybe_unused]] constexpr std::array LED_ORDER
     = { 3U, 4U, 5U, 6U, 7U, 8U, 9U, 10U, 1U, 0U, 2U, 8U, 9U, 10U };
 
 //
@@ -66,9 +74,10 @@ constexpr auto GPIO_PORT = GPIOA;
 constexpr auto PWR_SW = GPIO0;
 constexpr auto PWR_SW_WKUP = PWR_CSR_EWUP1;
 
-constexpr auto MBI_GCLK = GPIO2;
-constexpr auto MBI_GCLK_TIMER = TIM15;
-constexpr auto MBI_GCLK_TIMER_RCC = RCC_TIM15;
+// NB: This isn't actually generalized since we are not capturing the AF setting \here
+constexpr auto MBI_GCLK = GPIO7;
+constexpr auto MBI_GCLK_TIMER = TIM14;
+constexpr auto MBI_GCLK_TIMER_RCC = RCC_TIM14;
 
 constexpr auto MBI_LE = GPIO4;
 constexpr auto MBI_DCLK = GPIO5;

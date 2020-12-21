@@ -6,9 +6,9 @@ pcg::pcg()
 {
 }
 
-pcg::pcg(std::random_device& rd) { seed(rd); }
+pcg::pcg(std::function<uint32_t(void)> rd) { seed(rd); }
 
-void pcg::seed(std::random_device& rd)
+void pcg::seed(std::function<uint32_t(void)> rd)
 {
     uint64_t s0 = uint64_t(rd()) << 31 | uint64_t(rd());
     uint64_t s1 = uint64_t(rd()) << 31 | uint64_t(rd());

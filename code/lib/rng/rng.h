@@ -1,6 +1,7 @@
 #pragma once
 
 #include <random>
+#include <functional>
 
 // The C++ included RNGs suck and are large
 // PCG code refactored from https://arvid.io/2018/07/02/better-cxx-prng/
@@ -14,9 +15,9 @@ public:
     friend bool operator!=(pcg const&, pcg const&);
 
     pcg();
-    explicit pcg(std::random_device& rd);
+    explicit pcg(std::function<uint32_t(void)> rd);
 
-    void seed(std::random_device& rd);
+    void seed(std::function<uint32_t(void)> rd);
 
     result_type operator()();
 

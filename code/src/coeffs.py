@@ -10,8 +10,12 @@ import matplotlib.pyplot as plt
 # function to optimize
 
 
-def f(x: np.longdouble):
-    return np.power(x, 2.8)
+def f1(x: np.float):
+    return np.power(x,2.8)
+def f2(x: np.float):
+    return 1/x
+def f3(x: np.float):
+    return np.exp(x)
 
 
 def fa(x: np.longdouble):
@@ -137,6 +141,10 @@ def showplots(f, approxlist, a, b):
         plt.xlabel('x')
     plt.show()
 
-c = Cheby.fit(f, 0, 1, 3)
-print(list(c.coeffs))
-showplots(f, [fa,c], 0, 1)
+c = Cheby.fit(f1, 0, 1, 3)
+print("f(x) = x^2.8 on [0,1] { " + ",".join(str(i) for i in list(c.coeffs)) + " }")
+c = Cheby.fit(f2, 0, 100, 3)
+print("f(x) = 1/x on [0,100] { " + ",".join(str(i) for i in list(c.coeffs)) + " }")
+c = Cheby.fit(f3, -1, 1, 3)
+print("f(x) = e^x on [-1,1] { " + ",".join(str(i) for i in list(c.coeffs)) + " }")
+#showplots(f, [fa,c], 0, 1)

@@ -8,24 +8,8 @@
         "variant": "xmascard2020"
     },
     "debug": {
-        "tools": {
-            "stlink": {
-                "default": true,
-                "server": {
-                    "arguments": [
-                        "-f",
-                        "scripts/interface/stlink.cfg",
-                        "-c",
-                        "transport select hla_swd",
-                        "-f",
-                        "scripts/target/stm32f0x.cfg",
-                        "-c",
-                        "reset_config srst"
-                    ]
-                }
-            }
-        },
-        "jlink_device": "STM32F03F4"
+        "jlink_device": "STM32F03F4",
+        "openocd_target": "stm32f0x"
     },
     "frameworks": [
         "libopencm3"
@@ -39,7 +23,8 @@
         "protocols": [
             "jlink",
             "stlink",
-            "blackmagic"
+            "blackmagic",
+            "serial"
         ]
     },
     "vendor": "Keenan"
