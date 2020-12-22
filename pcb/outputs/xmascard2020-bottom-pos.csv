@@ -1,0 +1,26 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+BT1,CR2032,BatteryHolder_Keystone_3034_1x20mm,102,-97,120,bottom
+BT2,CR2032,BatteryHolder_Keystone_3034_1x20mm,120.6,-131.1,300,bottom
+C1,10u,C_0603_1608Metric,96.7,-83.6,0,bottom
+C2,10u,C_0603_1608Metric,116.2,-80.7,180,bottom
+D1,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,108.859436,-64.115,270,bottom
+D2,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,119.228024,-78.759,180,bottom
+D3,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,88.590972,-74.583,180,bottom
+D4,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,130.67608,-140.629,240,bottom
+D5,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,97.333344,-145.573,180,bottom
+D6,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,107.4,-131.3,180,bottom
+D7,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,107.2,-128.8,180,bottom
+D8,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,107,-126.3,180,bottom
+D9,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,102.638279,-113.941,180,bottom
+D10,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,108.04983,-110.603,180,bottom
+D11,LED,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,112.907443,-107.393,180,bottom
+Q1,AO3401A,SOT-23,115.2,-101.9,180,bottom
+R1,100k,R_0603_1608Metric,104.5,-81.6,270,bottom
+R2,100k,R_0603_1608Metric,108.6,-85.3,0,bottom
+R3,100k,R_0603_1608Metric,115.3,-99.1,0,bottom
+R4,2.8k,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,115.3,-110.5,180,bottom
+SW1,PROG,TS-1187A,114.8,-90.2,90,bottom
+SW2,PWR,TS-1187A,105.4,-71.7,0,bottom
+U1,HT7533-1,SOT-89-3,97.7,-79.2,0,bottom
+U2,STM32F030F4Px,TSSOP-20_4.4x6.5mm_P0.65mm,110.8,-80.9,90,bottom
+U3,MBI5043GP,SSOP-24_3.9x8.7mm_P0.635mm,114.1,-115.4,180,bottom
