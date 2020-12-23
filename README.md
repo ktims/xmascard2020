@@ -6,33 +6,31 @@ This was a vague idea in my head on Dec 4th, sent for manufacturing on Dec 6th, 
 
 If you just want to get hacking, download [PlatformIO](https://platformio.org/platformio-ide), check out the repo, and have a look at `code/include/Effects.h`. The only other thing you need is a 3.3V USB-serial adapter ('FTDI') and some dupont wires to hook it up. The `/code` README has more information on how to flash the board, and how the firmware works. PIO makes it super easy to set up the development environment, it's like one click, don't be scared!!
 
-NB: Most of this is being written before I have the boards in hand, as it's a task I can do ahead of time, since I expect all the remaining time to go into (hard|firm)ware dev once I have the boards.
-
 ## Usage
 
 ### User Interface
 
-There's really just one button, on the back near the top of the board and not labelled because I'm dumb. When off, press once briefly to turn on. When on, a long-press will rotate setting-modes (brightness and effect), and a short press will rotate between settings. Hold for 5s and release to turn off.
+There's really just one button, on the back near the top of the board and not labelled because I'm dumb. When off, press once briefly to turn on. When on, a long-press will enter brightness setting mode, and a short press will rotate between brightnesses. A long-press again will go back to normal operation. Hold for 5s and release to turn off.
 
-You can ignore the PROG button entirely unless you're planning to hack on the firmware, it does nothing other than put it into programming mode.
+You can ignore the PROG button entirely unless you're planning to hack on the firmware, it does nothing other than put it into programming mode on power up.
 
-TODO: If untouched for ~4h it will power itself off.
+If untouched for ~4h it will power itself off.
 
 ### Power
 
-**Batteries**: Battery life should be approx ?? hours while operating. After the season I suggest removing the batteries as they will run down slowly over time since there is no hard power switch (?? months/years). If you need more batteries, they are readily available type CR2032. Find them at the dollar store or on Amazon. The PKCELL ones I sent are cheap on Amazon and seem to not be trash.
+**Batteries**: Battery life should be approx 30 hours while operating. After the season I suggest removing the batteries as they will run down slowly over time since there is no hard power switch (a couple years). If you need more batteries, they are readily available type CR2032. Find them at the dollar store or on Amazon. The PKCELL ones I sent are cheap on Amazon and seem to not be trash.
 
-**External power**: **NOTE: Don't supply external power with batteries installed!** In theory you could power this with 4-16VDC. It should run reliably at 5V though, so a cheerful USB charger would be perfect. There are two power pads marked on the back of the board for this purpose. If I thought you might be likely to want to do this, I've probably soldered the connector to the board and maybe supplied a pigtail for you to connect to your power supply. The connector is a JST-PH (2.0mm pitch).
+**External power**: 🔴🔴 **NOTE: Don't supply external power with batteries installed!** 🔴🔴 In theory you could power this with any 4-16VDC supply (@ 10mA or so). It should run reliably at 5V though, so a cheerful USB charger would be perfect. There's an external power connector on the back of the board; if I thought you might want to hook this up, I included a pigtail with the appropriate connector already on it. The connector is a JST-PH (2.0mm pitch). +/- as marked on the board.
 
 ## Design
 ### Hardware
 
 Goals / Met?:
 * **Cheap** / Total cost incl. expedited shipping for 10 boards was \$153 (\$15.30 ea). I think so, though I would've liked to see $10.
-* **Entirely manufactured/assembled by JLCPCB** / Mostly. LEDs were hand assembled, but I didn't expect them to be manufacturable as they are mounted upside down.
-* **Slim for mailing** / Yes, if no connectors are fitted can probably be mailed taped in a paper envelope.
-* **Battery life >= 24h with standby life of > 1 month** / Not measured yet at time of writing, but I think so.
-* **Light/balanced enough with batteries to hang comfortably on a tree, or sit on a small stand** / Your verdict?
+* **Entirely manufactured/assembled by JLCPCB** / Mostly. LEDs were hand assembled, but I didn't expect them to be manufacturable anyway as they are mounted upside down.
+* **Slim for mailing** / Yes
+* **Battery life >= 24h with standby life of > 1 month** / Measured operating current with the included effects at full brightness is ~4-7mA. With 220mA CR2032s, that should be 30-50h. Standby current is <5µA, which is longer than the 3y shelf-life of the batteries.
+* **Light/balanced enough with batteries to hang comfortably on a tree, or sit on a small stand** / Seems to work well for me.
 
 #### Tools
 
@@ -62,9 +60,9 @@ I wanted at least 10 constant-current outputs, at least 10-bit PWM, and a SPI-is
 
 ##### Power control
 
-Toggle switches are relatively expensive and can't be placed by JLCPCB assembly service, so I preferred to avoid them. That means soft power, and to minimize parts, it means the microcontroller must have a standby mode with current consumption in low µA that can wake from a button press. The STM32F030 does so (~1.7µA). It also means everything else including the 3.3V regulator and LED driver must have a low current in standby too. Hence the selection of slightly more expensive HT7533 regulator, and using a P-channel power switch for the LED driver which has no standby mode and current consumption of several mA with all LEDs off (it may be less in practice without the PWM clock running).
+Toggle switches are relatively expensive and can't be placed by JLCPCB assembly service, so I preferred to avoid them. That means soft power, and to minimize parts, it means the microcontroller must have a standby mode with current consumption in low µA that can wake from a button press. The STM32F030 does so (~1.7µA). It also means everything else including the 3.3V regulator and LED driver must have a low current in standby too. Hence the selection of slightly more expensive HT7533 regulator, and using a P-channel power switch for the LED driver which has no standby mode and current consumption of several mA with all LEDs off (it may be less in practice without the PWM clock running). This also enables auto-power-off.
 
-When powered down, standby consumption comes from HT7533 (2.5µA) + STM32 (1.7µA) + Q1 leakage (100nA) is ~4.5µA standby current. This should give ~5 years standby battery life. Good enough for this purpose. The traditional 'jellybean' 1117 consumes 4mA, and without the power switch on the MBI5043 (guessing 2-4mA from the datasheet), it'd probably barely last a day.
+When powered down, standby consumption comes from HT7533 (2.5µA) + STM32 (1.7µA) + Q1 leakage (100nA) is ~4.5µA standby current. This should give ~5 years standby battery life. Good enough for this purpose. The traditional 'jellybean' 1117 regulator consumes 4mA, and without the power switch on the MBI5043 (guessing 2-4mA from the datasheet), it'd probably barely last a day.
 
 ### Software
 
@@ -84,8 +82,10 @@ I originally envisioned swapping function pointers to implement the effects, but
 
 There's not much else of interest there, but I welcome harsh code reviews.
 
-## Mistakes
+## Mistakes / Unexpectedness
 
 * I sprung for fancy Immersion Gold finish PCBs because they'd look nicer, even though there's barely any exposed copper on the front. I should have realized this could be used for the artwork and gold-on-black would be much blingier than white-on-black, or even 3-colour art!
 * I did not think to match the LED reference designations with their output # / buffer index. At least it's only an off-by-one since the references are 1-indexed rather than random.
 * 3 weeks is not enough time to design boards, have them made and delivered, write software, and then deliver to recipients. Not enough time *at all*.
+* Read the datasheets *carefully*. The pin I wired up as the PWM clock does indeed operate as a timer output, but only on some device variants, and not the one I have. Could've just used one of the free pins instead...this is why there is a bodge wire on your board.
+* These 'lighting' LEDs are...melty... They tolerate almost no heat from the soldering iron. Not used to components being made with thermoplastics.
