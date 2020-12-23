@@ -80,7 +80,7 @@ uint32_t get_true_random()
         } else if (val == 2) { // bottom bits are 10, shift a 1 in
             ret = (ret << 1) | 1;
             bits_left--;
-        }
+        } // otherwise ignore and hope for better luck next time
     }
 
     adc_power_off(ADC);

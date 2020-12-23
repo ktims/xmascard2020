@@ -32,14 +32,15 @@ constexpr uint8_t MBI_GAIN = 0;
 constexpr auto FPS = 60;
 
 // Long presses are >= LONG_PRESS & < PWR_PRESS
-constexpr size_t LONG_PRESS = FPS / 2; // \500ms
+constexpr size_t LONG_PRESS = FPS / 2; // 500ms
 
 // Power presses are >= PWR_PRESS
-constexpr size_t PWR_PRESS = FPS * 3;
+constexpr size_t PWR_PRESS = FPS * 3; // 3s
 
 // Debounce delay after button input before accepting another input
 constexpr size_t DEBOUNCE_DELAY = FPS / 20; // ~50ms
 
+// Auto power off delay after no input
 constexpr uint32_t APO_FRAMES = FPS * 4 * 3600; // 4 hours
 
 // LED chase order (zig-zag starting bottom right) - cap at NUM_LEDS for one
@@ -61,20 +62,27 @@ constexpr int GAMMA_DEGREE = 3;
 #ifdef STM32F0
 // IO layout:
 //   PA0  : input/WKUP <- PWR switch
-//   PA2  : TIM15_CH1  -> MBI5043 GCLK, 4MHz clock to LED driver
+//   PA1  : n/c
+//   PA2  : unusable   -- Bodged to PA7 which has a working timer output
+//   PA3  : n/c
 //   PA4  : output     -> MBI5043 LE, LED driver latch
 //   PA5  : output     -> MBI5043 DCLK, LED driver serial clock
 //   PA6  : output     -> Power switch for MBI5043
+//   PA7  : TIM14_CH1  -> TIM14 CH1 output to generate PWM clock for LED driver
 //   PA9  : USART1_TX  -> UART for application & bootloader
-//   PA10 : USART1_RX  -> UART for application & bootloader
+//   PA10 : USART1_RX  <- UART for application & bootloader
 //   PA13 : output     -> MBI5043 SDI, LED driver serial data
+//   PA14 : unused     -> SWDIO debugger pin, could be used
+//   PB1  : n/c
+//   PF0  : n/c
+//   PF1  : n/c
 
 constexpr auto GPIO_PORT = GPIOA;
 
 constexpr auto PWR_SW = GPIO0;
 constexpr auto PWR_SW_WKUP = PWR_CSR_EWUP1;
 
-// NB: This isn't actually generalized since we are not capturing the AF setting \here
+// NB: This isn't actually generalized since we are not capturing the AF setting here
 constexpr auto MBI_GCLK = GPIO7;
 constexpr auto MBI_GCLK_TIMER = TIM14;
 constexpr auto MBI_GCLK_TIMER_RCC = RCC_TIM14;

@@ -196,7 +196,7 @@ void mainloop()
 {
     enum sw_state_t { WAITING, PRESSED, RELEASED, POWER_OFF_DELAY };
 
-    sw_state_t sw_state = WAITING;
+    sw_state_t sw_state = RELEASED; // Button will be pressed on power up, so ignore it for a bit
     menu_state_t menu_state = MAIN;
     size_t frames_held = 0;
 
@@ -314,8 +314,8 @@ int main(void)
     mbi.config = (mbi.config
                      & ~(_BV(mbi_t::GAIN_B0) | _BV(mbi_t::GAIN_B1) | _BV(mbi_t::GAIN_B2) | _BV(mbi_t::GAIN_B3)
                          | _BV(mbi_t::GAIN_B4) | _BV(mbi_t::GAIN_B5)))
-        | (MBI_GAIN << 4);
-    mbi.config |= _BV(mbi_t::GCLK_DDR);
+        | (MBI_GAIN << 4); // set only the gain bits to the configured current gain
+    mbi.config |= _BV(mbi_t::GCLK_DDR); // and enable clock doubling mode
     mbi_power(true);
     mbi.start();
     debug_str("MBI5043 started\n");
